@@ -8,8 +8,16 @@ public class JuanArmandoCoriaFierros {
 	public JuanArmandoCoriaFierros() {
 		
 		metodos = new Metodos();
+		
+		//Llamando al Primer Metodo
 		metodos.metodoUno();
-		System.out.println(metodos.metodoDos("olo"));
+		
+		//Llamando al Segundo Metodo
+		System.out.println(metodos.metodoDos("oro"));
+		
+		//Llamando al Tercer Metodo
+		metodos.metodoTres();
+		
 	}
 	
 	public static void main(String[] args) {
