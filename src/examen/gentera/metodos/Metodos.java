@@ -82,5 +82,26 @@ public class Metodos {
 		return true;
 	}
 	
+	
+	
+	// Método 4. Método que indique si un número es perfecto, un número perfecto es aquel que la suma de todos sus divisores(sin contarse a sí mismo) es el mismo número
+	
+	
+	public void metodoCuatro(int num) {
+		
+		int suma=0;
+		
+		for(int x = 1; x < num; x++) {
+			if((num % x) == 0)
+				suma +=x;
+		}
+		
+		if(suma == num)
+			System.out.print("EL numero " + num + " ES perfecto." );
+		else 
+			System.out.print("EL numero " + num + " NO ES perfecto." );
+	}
+		
+	
 
 }
