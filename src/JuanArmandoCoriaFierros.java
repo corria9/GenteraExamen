@@ -9,6 +9,7 @@ public class JuanArmandoCoriaFierros {
 		
 		metodos = new Metodos();
 		metodos.metodoUno();
+		System.out.println(metodos.metodoDos("olo"));
 	}
 	
 	public static void main(String[] args) {
